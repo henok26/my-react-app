@@ -14,37 +14,37 @@ export const DASHBOARD_SIDEBAR_LINKS = [
 		key: 'dashboard',
 		label: 'Dashboard',
 		path: '/',
-		icon: <HiOutlineViewGrid  fontSize={44}/>
+		icon: <HiOutlineViewGrid  fontSize={24}/>
 	},
 	{
 		key: 'products',
 		label: 'Products',
 		path: '/products',
-		icon: <HiOutlineCube  fontSize={44} />
+		icon: <HiOutlineCube  fontSize={24} />
 	},
 	{
 		key: 'orders',
 		label: 'Orders',
 		path: '/orders',
-		icon: <HiOutlineShoppingCart  fontSize={44}/>
+		icon: <HiOutlineShoppingCart  fontSize={24}/>
 	},
-	{
-		key: 'customers',
-		label: 'Customers',
-		path: '/customers',
-		icon: <HiOutlineUsers  fontSize={44}/>
-	},
-	{
-		key: 'transactions',
-		label: 'Transactions',
-		path: '/transactions',
-		icon: <HiOutlineDocumentText  fontSize={44}/>
-	},
+	// {
+	// 	key: 'customers',
+	// 	label: 'Customers',
+	// 	path: '/customers',
+	// 	icon: <HiOutlineUsers  fontSize={24}/>
+	// },
+	// {
+	// 	key: 'transactions',
+	// 	label: 'Transactions',
+	// 	path: '/transactions',
+	// 	icon: <HiOutlineDocumentText  fontSize={24}/>
+	// },
 	{
 		key: 'messages',
 		label: 'Messages',
 		path: '/messages',
-		icon: <HiOutlineAnnotation  fontSize={44}/>
+		icon: <HiOutlineAnnotation  fontSize={24}/>
 	}
 ]
 

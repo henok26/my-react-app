@@ -65,14 +65,12 @@ const recentOrderData = [
 		shipment_address: 'Los Angeles, CA 90017'
 	}
 ]
-
-export default function Products() {
-
+export default function RecentOrders() {
     return (
         <div className='bg-white flex-1 place-items-start pb-4 pt-3 px-4 rounded-sm border border-grey-200'>
           <strong> RecentOrders</strong>
           <div className="mt-3">
-            <table className='w-full text-gray-700'>
+            <table className='w-full text-gray-700 border-x border-gray-200 rounded-sm'>
                 <thead>
                     <tr>
                         <td
